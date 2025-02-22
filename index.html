@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8JBN2JE1SzGCPT3m1a9xEku4fwmsKPwIrQQ&s">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="bignav">
+            <h1>Currency Converter</h1>
+        </div>
+        <div class="smallnav">
+            <div class="d" style="font-size: 22px;">Currency Converter</div>
+            <div class="d">Browse all currencies</div>
+            <div class="d">Get rate alerts</div>
+            <div class="d">Compare bank rates</div>
+        </div>
+    </div>
+    <div class="info">Convert USD to INR at the real exchange rate</div>
+    <div class="main">
+        <img id="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSmxqQTBEOBEmLxUMXFrIZCiOKcH3OpgQsvA&s">
+        <div class="content">
+            <div class="div1 box">
+                <div class="x1">Amount</div>
+                <div class="x2 y1">
+                    <div class="z1 a1">
+                        <input value="100" class="ip" type="text">
+                    </div>
+                    <div class="z2">
+                        <div class="flag"><img class="f" src="https://flagsapi.com/US/flat/64.png"></div>
+                        
+                        <div class="dropdown">
+                            <select name="from" id="from"></select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div2 box"><i id="i1" class="fa-solid fa-arrow-right-arrow-left"></i></div>
+            <div class="div3 box">
+                <div class="x1">Converted to</div>
+                <div class="x2 y2">
+                    <div class="z1 a2">
+                        <input value="8,662.29" class="ip" type="text">
+                    </div>
+                    <div class="z2">
+                        <div class="flag"><img class="f" src="https://flagsapi.com/IN/flat/64.png"></div>
+    
+                        <div class="dropdown">
+                            <select name="to" id="to"></select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div4 box">1.0000 USD = 86.62 INR</div>
+            <div class="div5 box">
+                Convert
+            </div>
+        </div>
+    </div>
+    
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+     
+</body>
+</html> 
